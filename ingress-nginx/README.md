@@ -7,7 +7,7 @@ annotations:
   nginx.ingress.kubernetes.io/whitelist-source-range: list-of-ip-range
 ```
 
-## Configure to get a real client IP if it is hosted by some cloud hoster.
+## Configure to get a real client IP from CloudFlare.
 
 Add data for your ingress-nginx config map
 
